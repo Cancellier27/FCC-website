@@ -1,0 +1,25 @@
+aside {
+  background-color: rgb(128, 128, 128, 0.3);
+  height: 100vh;
+  width: 70px;
+}
+
+aside ul {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+
+  text-decoration: none;
+  list-style: none;
+
+  height: 300px;
+}
+
+aside ul li {
+  transform: scale(2);
+}
+
+body {
+  background: linear-gradient(150deg, #4E9FAE, #51FFFF)
+}
