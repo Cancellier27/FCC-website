@@ -1,10 +1,13 @@
 header {
-  background-color: rgba(0, 0, 0, 0.8);
+  background-color: rgba(0, 0, 0, 0.1);
   height: 50px;
-  width: 100%;
+  width: 500px;
 
-  position: absolute;
-  bottom: 0;
+  position: fixed;
+  top: 0;
+  left: 0;
+
+  border-bottom-right-radius: 40px;
 }
 
 header ul {
