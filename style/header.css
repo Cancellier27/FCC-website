@@ -1,13 +1,10 @@
 header {
-  background-color: rgba(0, 0, 0, 0.1);
-  height: 50px;
-  width: 500px;
+  height: 60px;
+  width: 100%;
 
   position: fixed;
   top: 0;
-  left: 0;
-
-  border-bottom-right-radius: 40px;
+  right: 100px;
 }
 
 header ul {
@@ -15,44 +12,25 @@ header ul {
 
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-end;
 
   text-decoration: none;
   list-style: none;
+
 }
 
 header ul li {
-  font-size: 1.2em;
-  margin: 0 10px;
-}
-
-header .navName {
-  cursor: pointer;
-}
-
-header .underBar { 
-  cursor: pointer;
-  opacity: 0;
-  height: 5px;
-  width: 100%;
-}
-
-header .underBar:hover { 
-  opacity: 100;
-  transition: opacity .25s ease-in-out;
-  background-color: rgb(255, 241, 52);
-}
-
-header .selectedBar {
-  cursor: pointer;
-  opacity: 100;
-  height: 5px;
-  width: 100%;
-  background-color: rgb(255, 241, 52);
+  font-size: 1.1em;
+  margin: 0 20px;
 }
 
 header a {
-  color: #fff;
+  color: #000;
   text-decoration: none;
+  transition: ease-out 0.3s;
+}
+
+header a:hover {
+  text-decoration: underline;
 }
 
