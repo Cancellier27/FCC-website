@@ -1,5 +1,8 @@
 #ABOUT {  
-  padding: 100px 150px;
+  padding: 80px 150px;
+
+  min-height: 100vh;
+  width: 100%;
 
   display: flex;
   flex-direction: column;
@@ -16,22 +19,23 @@
 }
 
 #ABOUT .content {
-  height: 100%;
   display: grid;
-  grid-template-columns: 350px auto;
-  grid-template-rows: auto;
-  grid-gap: 25px;
-
-  overflow: hidden;
+  grid-template-columns: 360px auto;
+  grid-template-rows: min-content;
+  grid-gap: 25px; 
 }
 
 #ABOUT .myselfContainer {
-  background-color: lightgray;
+  /* background-color: lightgray; */
+  height: 100%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
 }
 
 #ABOUT .myselfContainer img {
   max-width: 100%;
-  max-height: 100%;
+  height: auto;
 }
 
 #ABOUT .textAboutContainer {
