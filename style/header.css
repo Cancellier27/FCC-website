@@ -1,10 +1,11 @@
 header {
+  background-color: #fcd02c;
   height: 60px;
   width: 100%;
+  padding-right: 50px;
 
-  position: fixed;
+  position: sticky;
   top: 0;
-  right: 100px;
 }
 
 header ul {
@@ -16,7 +17,6 @@ header ul {
 
   text-decoration: none;
   list-style: none;
-
 }
 
 header ul li {
