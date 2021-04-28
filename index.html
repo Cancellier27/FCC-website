@@ -17,6 +17,8 @@
   <link rel=" stylesheet" href="style/home.css">
   <link rel=" stylesheet" href="style/about.css">
   <link rel=" stylesheet" href="style/work.css">
+  <link rel=" stylesheet" href="style/fac.css">
+  <link rel=" stylesheet" href="style/contact.css">
   <title>fcc website</title>
 </head>
 
@@ -32,28 +34,22 @@
 
 
 
-    <div class="carouselContainer">
-      <div class="carouselSlider">
-        <div class="slidesImg selected">
+    <div class="carouselContainerText">
+      <div class="carouselSliderText">
+        <div class="slidesText selected">
           <p class="welcomeText">Welcome!</p>
           <img src="assets/flags/gb.svg" alt="UK" class="flag">
         </div>
-        <div class="slidesImg">
+        <div class="slidesText">
           <p class="welcomeText">Bem Vindo!</p>
           <img src="assets/flags/br.svg" alt="Brazil" class="flag">
         </div>
-        <div class="slidesImg">
+        <div class="slidesText">
           <p class="welcomeText">Bienvenido!</p>
           <img src="assets/flags/es.svg" alt="Espain" class="flag">
         </div>
       </div>
     </div>
-
-
-    <!-- <div class="carouselWelcome">
-      <p class="welcomeText" >Welcome</p>
-      <img src="assets/flags/gb.svg" alt="UK" class="flag">  
-    </div> -->
   </section>
 
   <header>
@@ -135,7 +131,118 @@
 
     <div class="content">
       <div class="carouselContainer">
-        { carousel project}
+        <div class="carouselSlider">
+          <div class="slidesImg selected">
+            <img src="./assets/carouselImg/EcoletaSiteCrop.PNG" alt="EcoletaSite">
+            <div class="description">
+              <p>
+                App that shown places for disposable materials made in React.
+              </p>
+              <div>
+                <a href="https://github.com/Cancellier27/NextLevelWeek" target="blank" class="btn">Git Repo</a>
+              </div>
+            </div>
+          </div>
+          <div class="slidesImg">
+            <img class="imgPositionLeft" src="./assets/carouselImg/fiflixCrop.png" alt="fiflix">
+            <div class="description">
+              <p>
+                App cloning Netflix interface, but for videos of users own preference.
+                Made with React
+              </p>
+              <div>
+                <a href="https://github.com/Cancellier27/React-Immersion" target="blank" class="btn">Git Repo</a>
+              </div>
+            </div>
+          </div>
+          <div class="slidesImg">
+            <img src="./assets/carouselImg/ForcaCrop.PNG" alt="Forca">
+            <div class="description">
+              <p>
+                A simple game called "Joga Da Forca" <b class="redText">(</b>Hangman<b class="redText">)</b> Made with
+                vanilla JS
+              </p>
+              <div>
+                <a href="https://github.com/Cancellier27/Jogo-Forca" target="blank" class="btn">Git Repo</a>
+              </div>
+            </div>
+          </div>
+          <div class="slidesImg">
+            <img class="imgPositionLeft" src="./assets/carouselImg/githubAppCrop.PNG" alt="githubApp">
+            <div class="description">
+              <p>
+                Search app using the GitHub api, created with React.
+              </p>
+              <div>
+                <a href="https://github.com/Cancellier27/github-search-app" target="blank" class="btn">Git Repo</a>
+              </div>
+            </div>
+          </div>
+          <div class="slidesImg">
+            <img src="./assets/carouselImg/JogoDaVelhaCrop.PNG" alt="jogoDaVelha"> 
+            <div class="description">
+              <p>
+                My firs web app. Hash game made with vanilla JS
+              </p>
+              <div>
+                <a href="https://github.com/Cancellier27/HashGame" target="blank" class="btn">Git Repo</a>
+              </div>
+            </div>
+          </div>
+          <div class="slidesImg">
+            <img class="imgPositionLeft" src="./assets/carouselImg/PersonalSiteCrop.png" alt="PersonalSite">
+            <div class="description">
+              <p>
+                First personal site made with React.
+              </p>
+              <div>
+                <a href="https://github.com/Cancellier27/FilipeSite" target="blank" class="btn">Git Repo</a>
+              </div>
+            </div>
+          </div>
+          <div class="slidesImg">
+            <img src="./assets/carouselImg/timerReactCrop.PNG" alt="timerReact">
+            <div class="description">
+              <p>
+                A basic timer made with React.
+              </p>
+              <div>
+                <a href="https://github.com/Cancellier27/Timer-React" target="blank" class="btn">Git Repo</a>
+              </div>
+            </div>
+          </div>
+          <div class="slidesImg">
+            <img class="imgPositionLeft" src="./assets/carouselImg/MapaCrop.png" alt="happyApp">
+            <div class="description">
+              <p>
+                Happy is an app that find the nearest orphanage to your location.
+              </p>
+              <div>
+                <a href="https://github.com/Cancellier27/happy-app" target="blank" class="btn">Git Repo</a>
+              </div>
+            </div>
+          </div>
+          <div class="slidesImg">
+            <img class="imgPositionLeft" src="./assets/carouselImg/thisSiteCrop.PNG" alt="foundersWebSite">
+            <div class="description">
+              <p>
+                This website that you are right now.
+              </p>
+              <div>
+                <a href="https://github.com/Cancellier27/web-app-fc" target="blank" class="btn">Git
+                  Repo</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="buttonsSlider">
+          <button class="prevButton redLinks" onclick="ImageSlider()">
+            <i class="fas fa-chevron-circle-left"></i>
+          </button>
+          <button class="nextButton redLinks" onclick="ImageSlider('next')">
+            <i class="fas fa-chevron-circle-right"></i>
+          </button>
+        </div>
       </div>
 
 
@@ -159,9 +266,11 @@
   </section>
 
   <section id="FAC">
-    <p class="dancing">
-      FAC
-    </p>
+    <div class="introContainer">
+      <h2>
+        Why Founders and Coders?
+      </h2>
+    </div>
   </section>
 
   <section id="CONTACT">
@@ -173,5 +282,6 @@
 </body>
 
 <script src="./config/carousel.js"></script>
+<script src="./config/carousel2.js"></script>
 
 </html>

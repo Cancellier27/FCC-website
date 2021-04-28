@@ -12,19 +12,8 @@
   align-items: flex-start;
 }
 
-#WORK .introContainer {
-  margin-bottom: 50px;
-}
-
-#WORK .introContainer  p{
-  margin-top: 15px;
-}
-
-
-
 #WORK .content {
   width: 100%;
-
 
   display: flex;
   flex-direction: column;
@@ -62,7 +51,7 @@
   width: 200px;
 
   overflow: hidden;
-  border: 2px solid #000 ;
+  border: 5px solid #000 ;
   border-radius: 20px;
 }
 
@@ -88,3 +77,126 @@
   transition: 0.3s ease-in-out;
 }
 
+
+/* --------------------------- */
+
+.selected {
+  opacity: 1 !important;
+  z-index: 5 !important;
+}
+
+
+#WORK .carouselContainer {
+  position: relative;
+
+  margin-top: 50px;
+  margin-bottom: 50px;
+
+  width: 100%;
+  height: 650px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#WORK .carouselContainer .carouselSlider {
+  position: relative;
+
+  height: 100%;
+  width: 1000px;
+}
+
+#WORK .carouselContainer .carouselSlider .slidesImg {
+  position: absolute;
+
+  height: 100%;
+  width: 100%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+}
+
+#WORK .carouselContainer .carouselSlider .slidesImg img {
+  height: 90%;
+  width: 100%;
+  max-width: 100%;
+
+  border: solid 2px var(--carouselBordersColor);
+  border-radius: 5px;
+
+  object-fit: cover;
+}
+
+#WORK .carouselContainer .carouselSlider .slidesImg .description {
+  margin-top: 1px;
+
+  height: 10%;
+  width: 100%;
+
+  background: var(--carouselDescriptionColor);
+
+  border: solid var(--carouselBordersColor) 2px;
+  border-radius: 5px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  overflow: hidden;
+}
+
+#WORK .carouselContainer .carouselSlider .slidesImg .description div {
+  height: 100%;
+  margin: 0 2%;
+
+  min-width: 120px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#WORK .carouselContainer .carouselSlider .slidesImg .description div a {
+  height: 70%;
+  padding: 0 15px 0 15px;
+
+  font-size: 1.2em;
+}
+
+#WORK .carouselContainer .carouselSlider .slidesImg .description p {
+  font-size: 1.3em;
+  color: var(--textColorStandard);
+  margin-left: 2%;
+}
+
+#WORK .carouselContainer .buttonsSlider {
+  position: absolute;
+  top: 45%;
+
+  width: 1200px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#WORK .carouselContainer .buttonsSlider .prevButton,
+#WORK .carouselContainer .buttonsSlider .nextButton {
+  background: transparent;
+  font-size: 45px;
+  border: none;
+
+  cursor: pointer;
+}
+
+#WORK .carouselContainer .buttonsSlider .prevButton:focus,
+#WORK .carouselContainer .buttonsSlider .nextButton:focus {
+  outline: none;
+}

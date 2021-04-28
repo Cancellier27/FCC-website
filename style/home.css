@@ -24,7 +24,7 @@
   width: auto;
 }
 
-#HOME .carouselContainer {
+#HOME .carouselContainerText {
 width: 100%;
 height: 50px;
 
@@ -33,7 +33,7 @@ align-items: center;
 justify-content: center;
 }
 
-#HOME .carouselSlider {
+#HOME .carouselSliderText {
   position: relative;
 
   display: flex;
@@ -42,7 +42,7 @@ justify-content: center;
   width: 250px;
 }
 
-#HOME .slidesImg{
+#HOME .slidesText {
   position: absolute;
 
   display: flex;
@@ -63,10 +63,10 @@ justify-content: center;
   margin-left: 20px;
 }
 
-#HOME .selected {
+/* #HOME .selected {
   opacity: 1 !important;
   z-index: 3;
-}
+} */
 
 #HOME .titleSubtitles {
   margin-top: 5px;

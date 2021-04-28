@@ -28,3 +28,15 @@ p {
   color: #000;
 }
 
+.introContainer {
+  margin-bottom: 50px;
+}
+
+.introContainer  h2 {
+  font-size: 1.7em;
+}
+
+.introContainer  p {
+  margin-top: 15px;
+}
+

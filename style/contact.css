@@ -1,0 +1,14 @@
+#CONTACT {
+  padding: 80px 150px;
+
+  background-color: #001f3f;
+  /* background-color: #fcd02c; */
+
+  min-height: 40vh;
+  width: 100%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
