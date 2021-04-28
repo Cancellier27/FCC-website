@@ -42,3 +42,20 @@
   background-color: lightgray;
   padding: 50px 70px;
 }
+
+@media screen and (max-width: 1200px) {
+  #ABOUT {  
+    padding: 80px 100px;
+}  
+
+  #ABOUT .content {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+    grid-gap: 0px; 
+  }
+
+  #ABOUT .myselfContainer {
+    display: none;
+  }
+}
