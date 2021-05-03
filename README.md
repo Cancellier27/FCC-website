@@ -22,6 +22,7 @@
 ## :bookmark: About
 
 A web-site created only with JavaScript, HTML and CSS.
+</br>
 It was made thinking in simplicity, functionality and with love s2.
 
 ## :rocket: Tech Used
@@ -41,7 +42,7 @@ This project was made with the following technologies:
 1. Clone the repo :
 
 ```sh
-  $ git clone https://github.com/Cancellier27/web-app-fc
+  $ git clone https://github.com/Cancellier27/FCC-website
 ```
 
 2. Execute the app:
