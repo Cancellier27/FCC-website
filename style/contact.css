@@ -1,5 +1,5 @@
 #CONTACT {
-  padding: 80px 150px;
+  padding: 30px 150px 10px 150px ;
 
   background-color: #001f3f;
   /* background-color: #fcd02c; */
@@ -9,8 +9,47 @@
 
   display: flex;
   flex-direction: column;
-  justify-content: flex-start;
-  align-items: flex-start;
+  justify-content: space-around;
+  align-items: stretch;
 
   color: #fff;
 }
+
+#CONTACT p {
+  color: #fff;
+}
+
+#CONTACT .introContainer {
+  margin-bottom: 20px;
+}
+
+#CONTACT .introContainer  p{
+  margin-top: 10px;
+  color: white;
+}
+
+#CONTACT .linksContainer,
+#CONTACT .createdBy {
+  display: flex;
+  justify-content: center;
+}
+
+#CONTACT .LinkDiv {
+  font-size: 6em;
+  margin: 0 2%;
+}
+#CONTACT .LinkDiv i,
+#CONTACT .iconify {
+  color: #fcd02c;
+}
+
+#CONTACT .LinkDiv:hover i,
+#CONTACT .iconify:hover {
+  color: #c09600;
+}
+
+#CONTACT .LinkDiv:active i,
+#CONTACT .iconify:active {
+  color: #fcd02c;
+}
+
