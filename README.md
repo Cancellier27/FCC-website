@@ -1,7 +1,7 @@
 <h3 align="center">
-    <img alt="Logo" title="#logo" width="150px" src=".github/iconWebDev.png">
+    <img alt="Logo" title="#logo" width="150px" src="./assets/readMe/iconWebDev.png">
     <br><br>
-    <b>Personal site</b> 
+    <b>FOUNDERS AND CODERS Website</b> 
 </h3>
 
 <p align="center">
@@ -23,7 +23,6 @@
 
 A web-site created only with JavaScript, HTML and CSS.
 It was made thinking in simplicity, functionality and with love s2.
-</--  FOUNDER AND CODERS  --/>
 
 ## :rocket: Tech Used
 
@@ -59,12 +58,9 @@ Or you can access it through the link below:
 
 ## :mailbox_with_mail: Get in touch!
 
-<a href="https://filipe-site.now.sh/" target="_blank" >
+<a href="https://cancellier27.github.io/FCC-website/" target="_blank" >
   <img alt="Website - Filipe" src="https://img.shields.io/badge/Website--%23F8952D?style=social">
 </a>&nbsp;&nbsp;&nbsp;
-<!-- <a href="https://www.linkedin.com/in/filipe-cancellier-da-costa-8459ab160/" target="_blank" >
-  <img alt="Linkedin - Filipe" src="https://img.shields.io/badge/Linkedin--%23F8952D?style=social&logo=linkedin">
-</a>&nbsp;&nbsp;&nbsp; -->
 <a href="mailto:filipecancelliercosta@gmail.com" target="_blank" >
   <img alt="Email - Filipe" src="https://img.shields.io/badge/Email--%23F8952D?style=social&logo=gmail">
 </a>
