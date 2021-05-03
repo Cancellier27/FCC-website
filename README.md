@@ -53,8 +53,8 @@ This project was made with the following technologies:
 
 Or you can access it through the link below:
 
-  <a href="https://cancellier27.github.io/web-app-fc/" target="_blank" >
-  https://cancellier27.github.io/web-app-fc/
+  <a href="https://cancellier27.github.io/FCC-website" target="_blank" >
+  https://cancellier27.github.io/FCC-website
   </a>
 
 ## :mailbox_with_mail: Get in touch!
