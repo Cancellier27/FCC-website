@@ -93,7 +93,7 @@
   margin-bottom: 50px;
 
   width: 100%;
-  height: 650px;
+  /* min-height: 100%; */
 
   display: flex;
   justify-content: center;
@@ -103,8 +103,10 @@
 #WORK .carouselContainer .carouselSlider {
   position: relative;
 
-  height: 100%;
-  width: 1000px;
+  height: 40vh;
+  width: 70%;
+
+  border: solid 1px black;
 }
 
 #WORK .carouselContainer .carouselSlider .slidesImg {
@@ -124,13 +126,12 @@
 
 #WORK .carouselContainer .carouselSlider .slidesImg img {
   height: 90%;
-  width: 100%;
   max-width: 100%;
 
   border: solid 2px var(--carouselBordersColor);
   border-radius: 5px;
 
-  object-fit: cover;
+  object-fit: contain;
 }
 
 #WORK .carouselContainer .carouselSlider .slidesImg .description {
@@ -180,7 +181,7 @@
   position: absolute;
   top: 45%;
 
-  width: 1200px;
+  width: 90%;
 
   display: flex;
   justify-content: space-between;
