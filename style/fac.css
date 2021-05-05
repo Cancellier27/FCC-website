@@ -1,5 +1,5 @@
 #FAC {
-  padding: 80px 150px;
+  padding: 80px 5%;
 
   min-height: 60vh;
   width: 100%;
@@ -12,5 +12,5 @@
 
 #FAC .textAboutContainer {
   background-color: lightgray;
-  padding: 50px 70px;
+  padding: 50px 5%;
 }

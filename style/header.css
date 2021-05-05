@@ -45,20 +45,24 @@ header .hamburger {
 }
 
 @media screen and (max-width: 530px) {
-   /* header nav {
+
+  header nav {
     position: relative;
-  }   */
+  }
 
   header nav .navList {
-    position: sticky;
-    top: 0px;
-
-    height: 200px;
+    position: absolute;
+    bottom: 120px;
+    right: 10px;
+    /* border: black 1px solid; */
+    /* height: 200px; */
 
     display: flex;
     flex-direction: column;
     align-items: flex-end;
     justify-content: flex-start;
+
+    transition: ease-in-out 0.2s;
   }
 
   header nav .navList li {

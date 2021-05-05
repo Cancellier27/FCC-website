@@ -1,5 +1,5 @@
 #ABOUT {  
-  padding: 80px 150px;
+  padding: 80px 5%;
 
   min-height: 100vh;
   width: 100%;
@@ -40,12 +40,12 @@
 
 #ABOUT .textAboutContainer {
   background-color: lightgray;
-  padding: 50px 70px;
+  padding: 50px 5%;
 }
 
 @media screen and (max-width: 1200px) {
   #ABOUT {  
-    padding: 80px 100px;
+    padding: 80px 5%;
 }  
 
   #ABOUT .content {
