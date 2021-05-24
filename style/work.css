@@ -1,5 +1,6 @@
 #WORK {
-  background-color: #e56b1f;
+  background-color: var(--work-background-color);
+  /* background-color: #e56b1f; */
 
   padding: 80px 150px;
 

@@ -1,22 +1,23 @@
 #HOME {
-  background-color: #fcd02c;
+  background-color: var(--home-background-color);
+  /* background-color: #fcd02c; */
   /* background-color: #fc202c; */
   /* background-color: #2a3166; */
   /* background-color: #e56b1f; */
 
-  min-height: calc(100vh - 60px);
+  min-height: 100vh;
   width: 100%;
 
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-
 }
 
 #HOME .homeTitle {
   font-size: 5em;
   font-weight: 500;
+  color: var(--text-yellow);
 }
 
 #HOME .imgMe {
@@ -65,10 +66,6 @@
   margin-left: 20px;
 }
 
-/* #HOME .selected {
-  opacity: 1 !important;
-  z-index: 3;
-} */
 
 #HOME .titleSubtitles {
   margin-top: 5px;
@@ -76,6 +73,13 @@
   display: flex;
   align-items: center;
   justify-content: flex-end;
+}
+
+#HOME p {
+  color: var(--text-standard);
+}
+#HOME i {
+  color: var(--text-yellow);
 }
 
 #HOME .titleSubtitles p {

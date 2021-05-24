@@ -1,7 +1,7 @@
 #CONTACT {
-  padding: 30px 150px 10px 150px ;
+  padding: 30px 5% 10px 5% ;
 
-  background-color: #001f3f;
+  background-color: var(--contact-background-color);
   /* background-color: #fcd02c; */
 
   min-height: 40vh;
@@ -38,6 +38,7 @@
   font-size: 6em;
   margin: 0 2%;
 }
+
 #CONTACT .LinkDiv i,
 #CONTACT .iconify {
   color: #fcd02c;
@@ -53,3 +54,8 @@
   color: #fcd02c;
 }
 
+@media screen and (max-width: 500px) {
+  #CONTACT .LinkDiv {
+    font-size: 4em;
+  }
+}
