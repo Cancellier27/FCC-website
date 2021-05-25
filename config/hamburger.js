@@ -1,12 +1,9 @@
 const slideToggle = document.querySelector(".navList")
 
-
 function onMenuToggle() {
-  
-  if(slideToggle.style.opacity === "0") {
-    slideToggle.style.opacity = "1"
+  if(slideToggle.style.right === "-50px") {
+    slideToggle.style.right = "-250px"
   } else {
-    slideToggle.style.opacity = "0"
+    slideToggle.style.right = "-50px"
   }  
 }
-

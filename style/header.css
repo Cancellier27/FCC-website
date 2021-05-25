@@ -23,6 +23,8 @@ header .navList {
 
   text-decoration: none;
   list-style: none;
+  
+  /* opacity: 1; */
 }
 
 header .navList li {
@@ -52,17 +54,18 @@ header .hamburger {
 
   header nav .navList {
     position: absolute;
-    bottom: 120px;
-    right: 10px;
+    bottom: -55px;
+    right: -250px;
     /* border: black 1px solid; */
     /* height: 200px; */
-
+    /* opacity: 0; */
+    transition: ease-in-out 0.2s;
     display: flex;
     flex-direction: column;
     align-items: flex-end;
     justify-content: flex-start;
 
-    transition: ease-in-out 0.2s;
+    
   }
 
   header nav .navList li {
