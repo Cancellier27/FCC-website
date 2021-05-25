@@ -32,16 +32,22 @@
 #CONTACT .createdBy {
   display: flex;
   justify-content: center;
+  align-items: center;
 }
 
 #CONTACT .LinkDiv {
-  font-size: 6em;
   margin: 0 2%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 #CONTACT .LinkDiv i,
 #CONTACT .iconify {
-  color: #fcd02c;
+  height: 100%;
+  font-size: 6em;
+  color: var(--yellow-standard-color);
 }
 
 #CONTACT .LinkDiv:hover i,
@@ -51,7 +57,12 @@
 
 #CONTACT .LinkDiv:active i,
 #CONTACT .iconify:active {
-  color: #fcd02c;
+  color: var(--yellow-standard-color);
+}
+
+#CONTACT .yellowLinks:hover {
+  cursor: pointer;
+  color: var(--yellow-hover-color);
 }
 
 @media screen and (max-width: 500px) {

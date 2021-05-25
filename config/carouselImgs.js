@@ -5,7 +5,7 @@ let timeInterval;
 const interval = 5000
 
 function ImageSlider(orientation) {
-  const imgSelected = document.querySelector('.selected')
+  const imgSelected = carouselContainer.querySelector('.selected')
   imgSelected.classList.remove('selected')
   
   clearInterval(timeInterval)
