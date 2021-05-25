@@ -54,3 +54,7 @@ p {
   margin-top: 15px;
 }
 
+.selected {
+  opacity: 1 !important;
+  z-index: 5 !important;
+}

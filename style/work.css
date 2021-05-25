@@ -2,7 +2,7 @@
   background-color: var(--work-background-color);
   /* background-color: #e56b1f; */
 
-  padding: 80px 150px;
+  padding: 80px 5%;
 
   min-height: 100vh;
   width: 100%;
@@ -81,20 +81,12 @@
 
 /* --------------------------- */
 
-.selected {
-  opacity: 1 !important;
-  z-index: 5 !important;
-}
-
-
 #WORK .carouselContainer {
   position: relative;
 
-  margin-top: 50px;
   margin-bottom: 50px;
-
-  width: 100%;
-  /* min-height: 100%; */
+  width: 800px;
+  height: 460px;
 
   display: flex;
   justify-content: center;
@@ -104,17 +96,15 @@
 #WORK .carouselContainer .carouselSlider {
   position: relative;
 
-  height: 40vh;
-  width: 70%;
+  width: 100%;
 
-  border: solid 1px black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-#WORK .carouselContainer .carouselSlider .slidesImg {
+#WORK .carouselSlider .slidesImg {
   position: absolute;
-
-  height: 100%;
-  width: 100%;
 
   display: flex;
   flex-direction: column;
@@ -125,80 +115,69 @@
   transition: opacity 0.3s ease-in-out;
 }
 
-#WORK .carouselContainer .carouselSlider .slidesImg img {
-  height: 90%;
+#WORK .slidesImg img {
+  height: 100%;
   max-width: 100%;
 
-  border: solid 2px var(--carouselBordersColor);
-  border-radius: 5px;
-
-  object-fit: contain;
+  border: solid 4px var(--yellow-standard-color);
+  object-fit: fill;
 }
 
-#WORK .carouselContainer .carouselSlider .slidesImg .description {
-  margin-top: 1px;
+#WORK .slidesImg .repoLink {
+  opacity: 0;
+  position: absolute;
+  bottom: 0;
 
-  height: 10%;
+  height: 40px;
   width: 100%;
 
-  background: var(--carouselDescriptionColor);
-
-  border: solid var(--carouselBordersColor) 2px;
-  border-radius: 5px;
-
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-end;
   align-items: center;
-
-  overflow: hidden;
 }
 
-#WORK .carouselContainer .carouselSlider .slidesImg .description div {
-  height: 100%;
-  margin: 0 2%;
 
-  min-width: 120px;
-
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-}
-
-#WORK .carouselContainer .carouselSlider .slidesImg .description div a {
-  height: 70%;
-  padding: 0 15px 0 15px;
-
+#WORK .repoLink  a {
+  padding: 0 2%;
   font-size: 1.2em;
+  min-height: 100%;
+  background-color: var(--yellow-standard-color);
+  border-top-left-radius: 10px;
+
+  text-decoration: none;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-#WORK .carouselContainer .carouselSlider .slidesImg .description p {
-  font-size: 1.3em;
-  color: var(--textColorStandard);
-  margin-left: 2%;
+#WORK .repoLink  a:hover {
+  text-decoration: underline;
 }
 
 #WORK .carouselContainer .buttonsSlider {
   position: absolute;
   top: 45%;
 
-  width: 90%;
+  width: 95%;
+
+ 
 
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
-#WORK .carouselContainer .buttonsSlider .prevButton,
-#WORK .carouselContainer .buttonsSlider .nextButton {
+#WORK .buttonsSlider .prevButton,
+#WORK .buttonsSlider .nextButton {
   background: transparent;
   font-size: 45px;
   border: none;
-
+  z-index: 5;
   cursor: pointer;
 }
 
-#WORK .carouselContainer .buttonsSlider .prevButton:focus,
-#WORK .carouselContainer .buttonsSlider .nextButton:focus {
+#WORK .buttonsSlider .prevButton:focus,
+#WORK .buttonsSlider .nextButton:focus {
   outline: none;
 }

@@ -29,10 +29,17 @@ function ImageSlider(orientation) {
 
 function carouselLoop() {
   timeInterval = setInterval(() => ImageSlider('next'), interval)
+
+  const imgSelected = carouselContainer.querySelector('.selected')
+  imgSelected.querySelector(".repoLink").style.opacity = 0
 }
 
 carouselContainer.addEventListener('mouseenter', () => {
   clearInterval(timeInterval)
+
+  const imgSelected = carouselContainer.querySelector('.selected')
+  imgSelected.querySelector(".repoLink").style.opacity = 1
+
 });
 
 carouselContainer.addEventListener('mouseleave', carouselLoop);
