@@ -228,7 +228,23 @@
     align-items: center;
     justify-content: space-evenly;
   }
+}
 
-  
+@media screen and (max-width: 900px) {
+  #WORK .carouselContainer {
+    width: 600px;
+    height: 345px;
+  }
+}
+
+@media screen and (max-width: 670px) {
+  #WORK .carouselContainer {
+    width: 400px;
+    height: 230px;
+  }
+
+  #WORK .buttonsSlider .prevButton,
+#WORK .buttonsSlider .nextButton {
+  font-size: 25px;
 
 }
