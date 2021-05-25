@@ -200,15 +200,6 @@
 
 @media screen and (max-width: 1250px) {
   #WORK {
-    background-color: var(--work-background-color);
-    /* background-color: #e56b1f; */
-
-    padding: 80px 5%;
-
-    min-height: 100vh;
-    width: 100%;
-
-    display: grid;
     grid-template-columns: auto;
     grid-template-rows: 200px auto auto;
     grid-template-areas:
@@ -238,6 +229,12 @@
 }
 
 @media screen and (max-width: 670px) {
+  #WORK {
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+   }
+
+
   #WORK .carouselContainer {
     width: 400px;
     height: 230px;
@@ -247,4 +244,16 @@
   #WORK .buttonsSlider .nextButton {
     font-size: 25px;
   }
+}
+
+@media screen and (max-width: 454px) {
+  #WORK .carouselContainer {
+    width: 320px;
+    height: 201px;
+  }
+
+  #WORK .gamesContainer {
+    flex-direction: column;
+  }
+
 }
