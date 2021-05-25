@@ -67,7 +67,8 @@
 }
 
 @media screen and (max-width: 500px) {
-  #CONTACT .LinkDiv {
+  #CONTACT .LinkDiv i,
+  #CONTACT .iconify {
     font-size: 4em;
   }
 }
