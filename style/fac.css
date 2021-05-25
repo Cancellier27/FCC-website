@@ -11,6 +11,8 @@
 }
 
 #FAC .textAboutContainer {
-  background-color: lightgray;
+  background-color: var(--textBox-background-color);
   padding: 50px 5%;
+
+  border: solid 4px var(--yellow-standard-color);
 }

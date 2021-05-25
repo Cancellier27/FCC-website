@@ -31,16 +31,22 @@
   display: flex;
   align-items: flex-start;
   justify-content: center;
+
+  
 }
 
 #ABOUT .myselfContainer img {
   max-width: 100%;
   height: auto;
+
+  border: solid 4px var(--textBox-background-color);
 }
 
 #ABOUT .textAboutContainer {
-  background-color: lightgray;
+  background-color: var(--textBox-background-color);
   padding: 50px 5%;
+
+  border: solid 4px var(--yellow-standard-color);
 }
 
 @media screen and (max-width: 1200px) {
