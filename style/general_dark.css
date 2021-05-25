@@ -7,9 +7,13 @@
   --work-background-color: #747474;
   --header-background-color: #ffe400;
   --textBox-background-color: #27272742;
+  --gamesHover-background-color: #57580170;
+  --toggle-background-color: #ffe6008a;
 
   --text-yellow: #ffe400;
-  --text-standard: #fff;
+  --text-white: #fff;
+  --text-dark: #000;
+
 }
 
 * {
