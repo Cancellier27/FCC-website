@@ -62,3 +62,23 @@ p {
   opacity: 1 !important;
   z-index: 5 !important;
 }
+
+.titleFade {
+  opacity: 0;
+	transition: 500ms ease-in-out;
+}
+
+.contentFade {
+	transform: translateY(32px);
+	opacity: 0;
+	transition: .8s ease-out;
+}
+
+.revealTitle {
+	opacity: 1;
+}
+
+.revealContent {
+	transform: translateY(0);
+	opacity: 1;
+}

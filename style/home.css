@@ -76,7 +76,7 @@
 }
 
 #HOME p {
-  color: var(--text-standard);
+  color: var(--text-white);
 }
 #HOME i {
   color: var(--text-yellow);
