@@ -4,7 +4,8 @@
 
   --home-background-color: #272727;
   --contact-background-color: #272727;
-  --work-background-color: #747474;
+  --work-background-color: #272727;
+  /* --work-background-color: #747474; */
   --header-background-color: #ffe400;
   --textBox-background-color: #27272742;
   --gamesHover-background-color: #57580170;
@@ -69,8 +70,8 @@ p {
 }
 
 .contentFade {
-	transform: translateY(32px);
 	opacity: 0;
+	transform: translateY(32px);
 	transition: .8s ease-out;
 }
 
@@ -79,6 +80,6 @@ p {
 }
 
 .revealContent {
-	transform: translateY(0);
 	opacity: 1;
+	transform: translateY(0);
 }
