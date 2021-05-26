@@ -25,6 +25,11 @@ A web-site created only with JavaScript, HTML and CSS.
 </br>
 It was made thinking in simplicity, functionality and with love s2.
 
+:small_blue_diamond: 1. My first idea was to create something simple but functional and user friendly. So I looked into some portfolios to have ideas to how to build my site structure and main color palette.
+
+:small_blue_diamond: 2. 
+
+
 ## :rocket: Tech Used
 
 This project was made with the following technologies:

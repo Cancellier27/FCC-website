@@ -2,14 +2,14 @@
   --yellow-standard-color: #ffe400;
   --yellow-hover-color: #ceb900;
 
-  --home-background-color: #272727;
-  --contact-background-color: #272727;
-  --work-background-color: #272727;
-  /* --work-background-color: #747474; */
   --header-background-color: #ffe400;
-  --textBox-background-color: #27272742;
+  --home-background-color: #272727;
+  --work-background-color: #272727;
   --gamesHover-background-color: #57580170;
+  --contact-background-color: #272727;
+  
   --toggle-background-color: #ffe6008a;
+  --textBox-background-color: #27272742;
 
   --text-yellow: #ffe400;
   --text-white: #fff;
