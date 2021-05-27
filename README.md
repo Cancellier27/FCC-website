@@ -44,7 +44,9 @@ It was made thinking in simplicity, functionality and with love s2.
 
 :small_blue_diamond: 8. The site pallet is composed basically by two collors ![#272727](https://via.placeholder.com/15/272727/000000?text=+) `#272727` and ![#ffe400](https://via.placeholder.com/15/ffe400/000000?text=+) `#ffe400`. I took this colors because yellow is the color which symbolizes optimism, energy and joy, so it appeared to be the right choice for this page, and also this two colors remind me from the city in Brazil that I used to work :smile:
 
-:small_blue_diamond: 9. Finally for the header, which comes at the beginning but I think that was the part of the page that I most changed along the building process :joy:. I created a simple header which gets [fixed](https://www.w3schools.com/css/css_positioning.asp) at the top of the page and when the page gets smaller than a predefined width it changes to a [hamburger](https://www.w3schools.com/howto/howto_css_menu_icon.asp) menu to fit all the elements without breaking the layout of the page.
+:small_blue_diamond: 9. For the header, which comes at the beginning but I think that was the part of the page that I most changed along the building process :joy:. I created a simple header which gets [fixed](https://www.w3schools.com/css/css_positioning.asp) at the top of the page and when the page gets smaller than a predefined width it changes to a [hamburger](https://www.w3schools.com/howto/howto_css_menu_icon.asp) menu to fit all the elements without breaking the layout of the page.
+
+:small_blue_diamond: 10. Finally, all the images on the page have been compressed to make them smaller and make the site faster, not causing the site to load a lot of data for the images here. For this I used a random website online to compress images to a web format :smile:
 
 
 ## :rocket: Tech Used
