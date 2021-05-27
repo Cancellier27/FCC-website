@@ -37,7 +37,7 @@
   display: flex;
   flex-direction: column;
   align-items: flex-end;
-  justify-content: space-between;
+  justify-content: center;
 }
 
 #WORK .gamesContainer {
@@ -220,6 +220,11 @@
     flex-direction: row;
     align-items: center;
     justify-content: space-evenly;
+  }
+
+  #WORK .content {
+    align-items: center;
+    justify-content: center;
   }
 }
 
