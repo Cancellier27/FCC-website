@@ -24,6 +24,9 @@
 A web-site created only with JavaScript, HTML and CSS.
 </br>
 It was made thinking in simplicity, functionality and with love s2.
+-------------------------------------------------------------------
+ 
+:scroll: A brief description of the steps that I used to build this page. Enjoy :hearts: 
 
 :small_blue_diamond: 1. My first idea was to create something simple following the minimalist style but functional and user friendly. So I looked into some portfolios to have ideas to how to build my site structure and main color palette.
 
@@ -37,7 +40,9 @@ It was made thinking in simplicity, functionality and with love s2.
 
 :small_blue_diamond: 6. For the carousel structure I used some JS features like the [EventListener](https://developer.mozilla.org/en-US/docs/Web/API/EventListener) with the references [mouseenter](https://developer.mozilla.org/en-US/docs/Web/API/Element/mouseenter_event) event and [mouseleave](https://developer.mozilla.org/en-US/docs/Web/API/Element/mouseleave_event) event to make the carousel stop when the mouse cursor is over it and restart when the cursor leaves.
 
-:small_blue_diamond: 7. The whole website uses a scroll show feature to show the structures when the user scrolls the page down. To achieve this I used a structure from JS called [getBoundingClientRect().top](https://developer.mozilla.org/en-US/docs/Web/API/Element/getBoundingClientRect) which returns the small distance value from the top of the element until top of the screen as well as the [scroll](https://developer.mozilla.org/en-US/docs/Web/API/Document/scroll_event) event to trigger the function.
+:small_blue_diamond: 7. The whole website uses a scroll show feature to show the structures when the user scrolls the page down. To achieve this I used a structure from JS called [getBoundingClientRect().top](https://developer.mozilla.org/en-US/docs/Web/API/Element/getBoundingClientRect) which returns the small distance value from the top of the element until top of the screen as well as the [scroll](https://developer.mozilla.org/en-US/docs/Web/API/Document/scroll_event) and the [DOMContentLoaded](https://developer.mozilla.org/en-US/docs/Web/API/Window/DOMContentLoaded_event) events to trigger the function.
+
+:small_blue_diamond: 8. The site pallet is composed basically by two collors [#272727](https://via.placeholder.com/15/272727/000000?text=+) `#272727` and [#ffe400](https://via.placeholder.com/15/ffe400/000000?text=+) `#ffe400`. I took this colors because yellow is the color which symbolizes optimism, energy and joy, so it appeared to be the right choice for this page, and also this two colors remind me from the city in Brazil that I used to work :smile:
 
 
 ## :rocket: Tech Used
