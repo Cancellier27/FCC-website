@@ -28,7 +28,7 @@ It was made thinking in simplicity, functionality and with love s2.
  
 :scroll: A brief description of the steps that I used to build this page. Enjoy :hearts: 
 
-:small_blue_diamond: 1. My first idea was to create something simple following the minimalist style but functional and user friendly. So I looked into some portfolios to have ideas to how to build my site structure and main color palette.
+:small_blue_diamond: 1. My first idea was to create something simple following the minimalist style, functional and user friendly. So I looked into some portfolios to have ideas to how to build my site structure and main color palette.
 
 :small_blue_diamond: 2. For the Home page I made it simple, I got a new font from Google Fonts called [Dancing Script](https://fonts.google.com/specimen/Dancing+Script) for my name and for the rest of the webSite I used the font [Nunito](https://fonts.google.com/specimen/Nunito). 
 
