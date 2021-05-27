@@ -22,9 +22,7 @@ header .navList {
   justify-content: flex-end;
 
   text-decoration: none;
-  list-style: none;
-  
-  /* opacity: 1; */
+  list-style: none; 
 }
 
 header .navList li {
@@ -33,7 +31,7 @@ header .navList li {
 }
 
 header a {
-  color: #000;
+  color: var(--text-dark);
   text-decoration: none;
   transition: ease-out 0.3s;
 }

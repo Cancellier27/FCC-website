@@ -1,6 +1,5 @@
 const fadeTitle = document.querySelectorAll(".titleFade")
 const fadeContent = document.querySelectorAll(".contentFade")
-const fadeLinks = document.querySelector(".linksFade")
 
 function scrollAnimation() {
 	let winHeight = window.innerHeight
@@ -14,7 +13,6 @@ function scrollAnimation() {
 		let elementFade = item.getBoundingClientRect().top
 		if (elementFade <= winHeight / 1.3 ) item.classList.add('revealContent')
 	})
-	
 }
 
 document.addEventListener("DOMContentLoaded", scrollAnimation)

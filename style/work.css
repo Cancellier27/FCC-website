@@ -1,6 +1,5 @@
 #WORK {
   background-color: var(--work-background-color);
-  /* background-color: #e56b1f; */
 
   padding: 100px 5% 80px 5%;
 
@@ -44,7 +43,6 @@
   grid-area: games;
 
   width: 100%;
-  /* height: 70%; */
 
   display: flex;
   flex-direction: column;
