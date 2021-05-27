@@ -25,9 +25,15 @@ A web-site created only with JavaScript, HTML and CSS.
 </br>
 It was made thinking in simplicity, functionality and with love s2.
 
-:small_blue_diamond: 1. My first idea was to create something simple but functional and user friendly. So I looked into some portfolios to have ideas to how to build my site structure and main color palette.
+:small_blue_diamond: 1. My first idea was to create something simple following the minimalist style but functional and user friendly. So I looked into some portfolios to have ideas to how to build my site structure and main color palette.
 
-:small_blue_diamond: 2. 
+:small_blue_diamond: 2. For the Home page I made it simple, I got a new font from Google Fonts called [Dancing Script](https://fonts.google.com/specimen/Dancing+Script) for my name and for the rest of the webSite I used the font [Nunito](https://fonts.google.com/specimen/Nunito). 
+
+:small_blue_diamond: 3. I create a small carousel to change a welcome message on the Home page, just to say hello :wave: to everyone who visits my website :smile:
+
+:small_blue_diamond: 4. For the About and FAC pages I create a structure that I got inspired for [Jumbotrom](https://getbootstrap.com/docs/4.0/components/jumbotron/) from Bootstrap (Just the layout I mean :smile:). In my opinion that is a good way to show to the user some information in text.
+
+:small_blue_diamond: 5. 
 
 
 ## :rocket: Tech Used
